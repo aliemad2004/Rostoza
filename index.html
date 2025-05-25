@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rostoza - Fine Dining</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container navbar-content">
+        <a href="#home" class="nav-brand">Rostoza</a>
+
+        <button class="nav-toggler" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-overlay">
+          <button class="nav-overlay-close" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <div class="nav-links">
+            <a href="#home" data-en="Home" data-ar="الرئيسية">الرئيسية</a>
+            <a href="#about" data-en="About" data-ar="عنا">عنا</a>
+            <a href="#menu" data-en="Menu" data-ar="القائمة">القائمة</a>
+            <a href="#gallery" data-en="Gallery" data-ar="المعرض">المعرض</a>
+            <a href="#events" data-en="Events" data-ar="الفعاليات">الفعاليات</a>
+            <a href="#chefs" data-en="Chefs" data-ar="طُهاتنا">طُهاتنا</a>
+            <a href="#testimonials" data-en="Testimonials" data-ar="الشهادات">الشهادات</a>
+            <a href="#contact" data-en="Contact" data-ar="تواصل معنا">تواصل معنا</a>
+          </div>
+          <div class="nav-controls">
+            <div class="lang-switcher">
+              <button class="lang-btn active-lang" data-lang="ar">AR</button>
+              <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+              <i class="fas fa-sun icon-light"></i> <i class="fas fa-moon icon-dark"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="home"
+      class="hero-bg h-screen flex items-center justify-center text-center relative"
+    >
+      <div class="z-10 p-8">
+        <h1 data-en="Welcome to Rostoza" data-ar="مرحباً بكم في روستوزا">
+          مرحباً بكم في روستوزا
+        </h1>
+        <p data-en="Fine Dining" data-ar="تجربة طعام فاخرة">
+          تجربة طعام فاخرة
+        </p>
+        <a href="#menu" class="btn-primary" data-en="View Menu" data-ar="عرض القائمة">عرض القائمة</a>
+        <a href="#contact" class="btn-secondary" data-en="Book a Table" data-ar="احجز طاولة">احجز طاولة</a>
+      </div>
+    </section>
+
+    <section id="about" class="about-centered-large-image">
+      <div class="container">
+        <h2 data-en="Our Story" data-ar="قصتنا">قصتنا</h2>
+        <div class="image-wrapper">
+          <img
+            src="Catch’s New Steakhouse Is the Glitziest Spot in West Hollywood.jpg"
+            alt="Inside Rostoza"
+          />
+        </div>
+        <div class="content-wrapper">
+          <p
+            data-en="Rostoza was founded on a deep passion for culinary arts, delivering exquisite flavors and unforgettable dining experiences."
+            data-ar="تأسس روستوزا على شغف عميق بفنون الطهي، لنقدم نكهات رائعة وتجارب طعام لا تُنسى."
+          >
+            تأسس روستوزا على شغف عميق بفنون الطهي، لنقدم نكهات رائعة وتجارب طعام لا تُنسى.
+          </p>
+          <a href="#contact" class="btn-primary" data-en="Join Us" data-ar="انضم إلينا">انضم إلينا</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="menu">
+      <div>
+        <h2 data-en="Our Menu" data-ar="قائمتنا">قائمتنا</h2>
+        <div>
+          <div>
+            <img
+              src="meat1.jpg"
+              alt="Dish 1"
+            />
+            <h3 data-en="Grilled Steak" data-ar="شريحة لحم مشوية">شريحة لحم مشوية</h3>
+            <p data-en="Premium cut with seasonal vegetables." data-ar="قطعة فاخرة مع الخضروات الموسمية.">
+              قطعة فاخرة مع الخضروات الموسمية.
+            </p>
+            <span><i class="fas fa-sack-dollar"></i> 95</span> </div>
+          <div>
+            <img
+              src="salamoun"
+              alt="Dish 2"
+            />
+            <h3 data-en="Pan-Seared Salmon" data-ar="سلمون مشوي بالزبدة">سلمون مشوي بالزبدة</h3>
+            <p data-en="Fresh Atlantic salmon with lemon-dill sauce." data-ar="سلمون أطلسي طازج بصلصة الليمون والشبت.">
+              سلمون أطلسي طازج بصلصة الليمون والشبت.
+            </p>
+            <span><i class="fas fa-sack-dollar"></i> 70</span> </div>
+        </div>
+        <a href="file:///C:/Users/alfares/Desktop/neblix-re-ca/pizza%20frono/menu.html"><button class="btn-primary" data-en="View Full Menu" data-ar="عرض القائمة كاملة">
+          عرض القائمة كاملة
+        </button></a>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div>
+        <h2 data-en="Gallery" data-ar="معرض الصور">معرض الصور</h2>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'"
+            alt="Gallery Image 1"
+          />
+          <img
+            src="All the Michelin Star Restaurants in Stockholm – 2022 Edition.jpg"
+            alt="Gallery Image 2"
+          />
+          <img
+            src="Busy Kitchen Scene.jpg"
+            alt="Gallery Image 3"
+          />
+          <img
+            src="pri.jpg"
+            alt="Gallery Image 4"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="events">
+      <div>
+        <h2 data-en="Upcoming Events" data-ar="الفعاليات القادمة">الفعاليات القادمة</h2>
+        <div>
+          <div>
+            <img
+              src="pri.jpg"
+              alt="Event 1"
+            />
+            <h3 data-en="Wine Tasting Evening" data-ar="امسيه خاصه ">أمسية خاصة</h3>
+            <p data-en="Join us for a delightful evening of wine tasting from various regions." data-ar="انضم إلينا لأمسية ممتعة لتذوق النبيذ من مناطق مختلفة.">
+              انضم إلينا لأمسية ممتعة من مناطق مختلفة.
+            </p>
+            <button class="btn-primary" data-en="Book Now" data-ar="احجز الآن">احجز الآن</button>
+          </div>
+          <div>
+            <img
+              src="Busy Kitchen Scene.jpg"
+              alt="Event 2"
+            />
+            <h3 data-en="Exclusive Cooking Class" data-ar="دورة طبخ حصرية">دورة طبخ حصرية</h3>
+            <p data-en="Learn the secrets of our signature dishes from our head chef." data-ar="تعلم أسرار أطباقنا المميزة من طاهينا الرئيسي.">
+              تعلم أسرار أطباقنا المميزة من طاهينا الرئيسي.
+            </p>
+            <button class="btn-primary" data-en="Sign Up" data-ar="سجل الآن">سجل الآن</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chefs">
+      <div>
+        <h2 data-en="Our Talented Chefs" data-ar="طُهاتنا الموهوبون">طُهاتنا الموهوبون</h2>
+        <div>
+          <div>
+            <img
+              src="femchef.jpg"
+              alt="Chef Ahmed"
+            />
+            <h3 data-en="Chef Ahmed" data-ar="الشيف أحمد">الشيف أحمد</h3>
+            <p data-en="Executive Chef" data-ar="الشيف التنفيذي">الشيف التنفيذي</p>
+          </div>
+          <div>
+            <img
+              src="chef.jpg"
+              alt="Chef Sarah"
+            />
+            <h3 data-en="Chef Sarah" data-ar="الشيف سارة">الشيف سارة</h3>
+            <p data-en="Pastry Chef" data-ar="شيف الحلويات">شيف الحلويات</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div>
+        <h2 data-en="What Our Guests Say" data-ar="ماذا يقول ضيوفنا">ماذا يقول ضيوفنا</h2>
+        <div>
+          <div>
+            <img
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+              alt="Client 1"
+            />
+            <p
+              data-en='"Absolutely exceptional food and service. A truly memorable dining experience!"'
+              data-ar='"طعام وخدمة استثنائية بكل معنى الكلمة. تجربة طعام لا تُنسى حقًا!"'
+            >
+              "طعام وخدمة استثنائية بكل معنى الكلمة. تجربة طعام لا تُنسى حقًا!"
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://randomuser.me/api/portraits/men/32.jpg"
+              alt="Client 2"
+            />
+            <p
+              data-en='"The ambiance is perfect, and every dish is a masterpiece. Highly recommended!"'
+              data-ar='"الأجواء مثالية، وكل طبق تحفة فنية. أوصي به بشدة!"'
+            >
+              "الأجواء مثالية، وكل طبق تحفة فنية. أوصي به بشدة!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <h2 data-en="Contact Us" data-ar="تواصل معنا">تواصل معنا</h2>
+        <div>
+          <h3 data-en="Contact Information" data-ar="معلومات الاتصال">معلومات الاتصال</h3>
+          <p data-en="123 Restaurant St, Gourmet City" data-ar="شارع المطعم 123، مدينة الذواقة">
+            شارع المطعم 123، مدينة الذواقة
+          </p>
+          <p data-en="+1 (234) 567-8900" data-ar="+966 50 123 4567">
+            +966 50 123 4567
+          </p>
+          <p data-en="info@rostoza.com" data-ar="info@rostoza.com">
+            info@rostoza.com
+          </p>
+        </div>
+        <div>
+          <h3 data-en="Send us a message" data-ar="أرسل لنا رسالة">أرسل لنا رسالة</h3>
+          <form>
+            <label for="name" data-en="Name:" data-ar="الاسم:">الاسم:</label>
+            <input type="text" id="name" name="name" data-en-placeholder="Your Name" data-ar-placeholder="اسمك" placeholder="اسمك" />
+            <label for="email" data-en="Email:" data-ar="البريد الإلكتروني:">البريد الإلكتروني:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              data-en-placeholder="Your Email"
+              data-ar-placeholder="بريدك الإلكتروني"
+              placeholder="بريدك الإلكتروني"
+            />
+            <label for="message" data-en="Message:" data-ar="الرسالة:">الرسالة:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              data-en-placeholder="Your Message"
+              data-ar-placeholder="رسالتك"
+              placeholder="رسالتك"
+            ></textarea>
+            <button type="submit" class="btn-primary" data-en="Send Message" data-ar="إرسال الرسالة">
+              إرسال الرسالة
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <a href="#home">Rostoza</a>
+        <p data-en="Fine Dining Experience" data-ar="تجربة طعام فاخرة">
+          تجربة طعام فاخرة
+        </p>
+        <p class="copyright" data-en="&copy; 2024 Rostoza. All rights reserved." data-ar="&copy; 2024 روستوزا. جميع الحقوق محفوظة.">
+            &copy; 2024 روستوزا. جميع الحقوق محفوظة.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
